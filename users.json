@@ -1,0 +1,18 @@
+[
+  {
+    "userId": 1,
+    "login": "admin",
+    "password": "e981cb9415cbae4b5127b918cad943020edb2342",
+    "name": "ZlojAdmin",
+    "DoB": 1652994000,
+    "isAdmin": 1
+  },
+  {
+    "userId": 2,
+    "login": "kak-tAK-TO",
+    "password": "e981cb9415cbae4b5127b918cad943020edb2342",
+    "name": "Евгений",
+    "DoB": 1652821200,
+    "isAdmin": 0
+  }
+]

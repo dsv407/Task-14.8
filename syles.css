@@ -1,0 +1,49 @@
+
+body {
+    background-color: #2a2121;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #bd6386;
+    background-color: #ffffff;
+}
+
+span {
+    float: right;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a[href="login.php"] {
+    float: right;
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 55px;
+}
+
+
+a[href="login.php"] img {
+    margin-left: 5px;
+}

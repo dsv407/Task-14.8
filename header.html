@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спа Салон</title>
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+<header>
+    <h1>Добро пожаловать в наш спа-салон!</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="services">
+    <h2>Наши услуги</h2>
+    <div class="service">
+        <img src="massage.jpg" alt="Массаж">
+        <h3>Массаж</h3>
+        <p>Расслабьтесь и насладитесь профессиональным массажем.</p>
+    </div>
+    <!-- Добавь другие услуги здесь -->
+</section>
+
+<section class="about">
+    <h2>О нас</h2>
+    <p>Мы - команда опытных специалистов, готовых помочь вам расслабиться и восстановиться.</p>
+</section>
+
+<section class="appointment">
+    <h2>Запись на приём</h2>
+    <form action="submit_appointment.php" method="post">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="date">Дата и время:</label>
+        <input type="datetime-local" id="date" name="date" required>
+        <input type="submit" value="Записаться">
+    </form>
+</section>
+
+<footer>
+    <p>© 2024 Спа Салон</p>
+</footer>
+</body>
+</html>
